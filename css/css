@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: green;
+    padding: 20px;
+    margin: 5px;
+}
+nav{
+    background: gray;
+    padding: 10px;
+    margin: 5px;
+ }
+
+article{
+     background: blue;
+     margin: 5px;
+     padding: 20px;
+     width: 60%;
+}
+
+section{
+    background: orange;
+    margin: 5px;
+    padding:30px;
+}
+
+aside{
+     background: purple;
+     width: 40%;
+     margin: 5px;
+}
+
+footer{
+     background: green;
+     padding: 10px;
+}
+
+main{
+    display: flex;
+}
+
+@media only screen and (max-widht:600px) {
+    body{
+        background-color: yellow;
+    }
+    main {
+        flex-direction: column;
+    }
+    aside {
+        width: 100%;
+    }
+}
